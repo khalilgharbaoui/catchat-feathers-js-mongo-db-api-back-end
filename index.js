@@ -18,7 +18,7 @@ const app = feathers()
   .use(bodyParser.urlencoded({extended: true}));
 
   // Connect to your MongoDB instance(s)
-MongoClient.connect('mongodb://localhost:27017/feathers-demo').then(function(db){
+MongoClient.connect('mongodb://localhost:27017/catchat').then(function(db){
   // Connect to the db, create and register a Feathers service.
 
   app.use('/catchats', service({
