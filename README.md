@@ -4,7 +4,7 @@
 
 ###Info:
 
-CatChat is made with a [ReactJS Front-end](https://github.com/khalilgharbaoui/catchat-react-js-front-end), connected to a FeathersJS / SocketIO / ExpressJS, [Back-end API]() that uses MongoDB.
+CatChat is made with a [ReactJS Front-end](https://github.com/khalilgharbaoui/catchat-react-js-front-end), connected to a FeathersJS / SocketIO / ExpressJS, [Back-end API](https://github.com/khalilgharbaoui/catchat-feathers-js-mongodb-api-back-end) that uses MongoDB.
 We basically created this app during our traineeship at Codaisseur to get familiar with diffrent kinds of frameworks.
 
 ###Team
