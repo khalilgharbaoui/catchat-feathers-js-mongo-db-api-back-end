@@ -18,7 +18,7 @@ We basically created this app during our traineeship at Codaisseur to get famili
 My personal goal is to add:
 
   - ability to add emoji's
-  - ability to add user authentication.
+  - User authentication.
 
 ### Installation:
 
