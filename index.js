@@ -18,8 +18,8 @@ const app = feathers()
   .use(bodyParser.urlencoded({extended: true}));
 
   // Connect to your MongoDB instance(s)
-// MongoClient.connect('mongodb://localhost:27017/catchat').then(function(db){
-  MongoClient.connect('mongodb://kg:vegeta@ds017070.mlab.com:17070/catchats').then(function(db){
+MongoClient.connect('mongodb://localhost:27017/catchat').then(function(db){
+  // MongoClient.connect('mongodb://kg:vegeta@ds017070.mlab.com:17070/catchats').then(function(db){
 
   // Connect to the db, create and register a Feathers service.
 
@@ -40,26 +40,6 @@ const app = feathers()
       max: 100
     }
   }));
-
-
-
-  app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
-app.get('/catchats', function(req, res, next) {
-  // Handle the get for this route
-});
-
-app.post('/catchats', function(req, res, next) {
- // Handle the post for this route
-});
-
-
-
-
 
   // A basic error handler, just like Express
   // app.use(errors.handler());
