@@ -49,11 +49,11 @@ const app = feathers()
   next();
 });
 
-app.get('/', function(req, res, next) {
+app.get('/catchats', function(req, res, next) {
   // Handle the get for this route
 });
 
-app.post('/', function(req, res, next) {
+app.post('/catchats', function(req, res, next) {
  // Handle the post for this route
 });
 
