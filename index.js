@@ -31,7 +31,7 @@ const app = feathers()
     }
   }));
 
-
+  
 
   app.use('/dogchats', service({
     Model: db.collection('dogchats'),
@@ -46,9 +46,9 @@ const app = feathers()
 
   // Start the server
   // var server = app.listen(3030);
-var server = app.listen(3030);
+var server = app.listen(80);
   server.on('listening', function() {
-console.log('Feathers Message MongoDB service running on bitballoon URL Port 80');
+console.log('Feathers Message MongoDB service running on heroku URL Port 80');
 
     // console.log('Feathers Message MongoDB service running on 127.0.0.1:3030');
   });
