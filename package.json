@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Codaisseur/demo-feathers-realtime-chat.git"
+    "url": "https://github.com/khalilgharbaoui/catchat-react-js-back-end.git"
   },
   "keywords": [
     "demo",
@@ -19,12 +19,12 @@
     "express",
     "api"
   ],
-  "author": "Wouter de Vos",
+  "author": "Khalil Gharbaoui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Codaisseur/demo-feathers-realtime-chat/issues"
+    "url": "https://github.com/khalilgharbaoui/catchat-react-js-back-end"
   },
-  "homepage": "https://github.com/Codaisseur/demo-feathers-realtime-chat#readme",
+  "homepage": "https://github.com/khalilgharbaoui/catchat-react-js-back-end#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "feathers": "^2.0.0",
