@@ -30,7 +30,7 @@ const app = feathers()
       max: 100
     }
   }));
-  
+
 
 
   app.use('/dogchats', service({
@@ -45,9 +45,12 @@ const app = feathers()
   // app.use(errors.handler());
 
   // Start the server
-  var server = app.listen(3030);
+  // var server = app.listen(3030);
+var server = app.listen(80);
   server.on('listening', function() {
-    console.log('Feathers Message MongoDB service running on 127.0.0.1:3030');
+console.log('Feathers Message MongoDB service running on bitballoon URL Port 80');
+
+    // console.log('Feathers Message MongoDB service running on 127.0.0.1:3030');
   });
 }).catch(function(error){
   console.error(error);
