@@ -46,7 +46,7 @@ const app = feathers()
 
   // Start the server
   // var server = app.listen(3030);
-var server = app.listen(80);
+var server = app.listen(3030);
   server.on('listening', function() {
 console.log('Feathers Message MongoDB service running on bitballoon URL Port 80');
 
